@@ -1,0 +1,6 @@
+*.xcuserdatad
+*.iml
+.gradle
+.idea
+build
+.DS_Store
