@@ -17,7 +17,7 @@ public class deviceInfoEntry {
      */
     public void init(Context content) {
         try {
-            WXSDKEngine.registerModule("deviceInfo", AppdeviceInfoModule.class);
+            WXSDKEngine.registerModule("eeuiDeviceInfo", AppdeviceInfoModule.class);
         } catch (WXException e) {
             e.printStackTrace();
         }

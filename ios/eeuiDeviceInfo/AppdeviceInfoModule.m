@@ -18,7 +18,7 @@
 
 @implementation AppdeviceInfoModule
 
-WX_PlUGIN_EXPORT_MODULE(deviceInfo, AppdeviceInfoModule)
+WX_PlUGIN_EXPORT_MODULE(eeuiDeviceInfo, AppdeviceInfoModule)
 
 WX_EXPORT_METHOD(@selector(info:))
 WX_EXPORT_METHOD(@selector(netStatus:))

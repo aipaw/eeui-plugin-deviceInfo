@@ -1,6 +1,4 @@
-*.xcuserdatad
-*.iml
-.gradle
-.idea
-build
-.DS_Store
+./android/__MACOSX
+./android/build
+./android/*.iml
+./ios/__MACOSX

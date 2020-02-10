@@ -33,11 +33,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     //
     compileOnly "com.alibaba:fastjson:${project.fastjsonLibVersion}"
-    if (project.eeuiVersionCode >= 28) {
-        compileOnly "org.apache.weex:sdk_legacy:${project.weex_sdkLibVersion}"
-    } else {
-        compileOnly "com.taobao.android:weex_sdk:${project.weex_sdkLibVersion}"
-    }
+    compileOnly "org.apache.weex:sdk_legacy:${project.weex_sdkLibVersion}"
     //
     compileOnly project(":eeui")
 }
